@@ -1,11 +1,14 @@
-const age =19
-const hasvoterIdCard = false;
+const age =17
+const hasvoterIdCard = true;
 
 if(age>=18){
     if(hasvoterIdCard){
         console.log("tumi vote dite prbe");
     }
     else{
-        console.log("tumi vote dite prba na")
+        console.log("tumi vote dite prba na");
     }
+}
+else {
+    console.log("tumr age 18bocor hoyni");
 }
